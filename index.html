@@ -7,20 +7,113 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/vue/dist/vue.js"></script> <!--VUE-->
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script><!--Works like handlebars-->
-    <title>Routing with Vue</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Ontario Summer</title>
 </head>
-<body>
-    <main id="app">
-        <router-link to="/">Go to Login</router-link>
-        <br>
-        <router-link to="/app">Go to App</router-link>
+<body class="text-center" data-gr-c-s-loaded="true" cz-shortcut-listen="true" data-spy="scroll" data-target="#mainNav">
+    <div class="jumbotron-fluid splash-bg">
+      <header class="mb-auto">
+          <!-- NAVIGATION HERE -->
+          <nav class="navbar navbar-expand-lg bg-dark fixed-top" id="home">
+            <div class="container">
 
+            <!-- LOGO -->
+              <a class="navbar-brand" href="#">LOGO HERE</a>
+
+              <!-- BURGER -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- NAVLINKS -->
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="#home" class="nav-link">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#eat" class="nav-link">EAT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#stay" class="nav-link">STAY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#discover" class="nav-link">DISCOVER</a>
+                  </li>
+                  <li>
+                    <button type="button" class="btn btn-primary">REGISTER</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    
+      <!-- SPLASH CONTENT -->
+      <main role="main" id="app" class="container"> 
+          <div class="row">
+                <div class="col splash-txt">
+                    <h1 class="mb-4">FIND YOURSELF AT HOME</h1>
+                    <button class="button"><a href="#" class="btn btn-lg">PLAN YOUR VISIT</a></button>
+                </div>
+            </div>
+      </main>
+
+      <!-- THREE CARDS -->
+      <div class="cards">
+            <div class="row no-gutters my-3">
+                <div class="col-md-4 col-sm-12 pr-2">
+                    <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                        <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
+                        <p class="eat-cap mx-auto">EAT</p>
+                        <p class="card-desc">BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH </p>
+                        <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="list-group text-center bg-alt shadow p-3 mb-5 bg-white rounded">
+                        <h4 class="stay-cap mx-auto">STAY</h4>
+                        <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
+                        <p class="card-desc">BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH </p>
+                        <div class="bg-inverse">
+                            <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pl-2">
+                    <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                        <h4 class="dis-cap text-center">DISCOVER</h4>
+                        <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
+                        <p class="card-desc">BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH </p>
+                        <div class="bg-inverse">
+                            <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <main>
         <!--router view acts like hbs; the triple brackets {{{ body }}}-->
-        <router-view></router-view>
-    </main>
+         <router-view></router-view>
 
-
-
+        </main>
+       
+    
+      <!-- FOOTER -->
+      <footer class="py-5 bg-dark">
+        <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+        </div>
+        <!-- /.container -->
+      </footer>
+    </div>
+    
+   
     <script src="js/main.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

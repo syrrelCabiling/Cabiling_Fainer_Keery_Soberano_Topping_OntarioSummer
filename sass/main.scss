@@ -1,0 +1,61 @@
+@import 'modules/_vars';
+@import 'modules/_nav';
+@import 'modules/_splash';
+@import 'modules/_cards';
+@import 'modules/mediaqueries';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Raleway:400,700,800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    margin: auto;
+}
+
+body {
+    height: 100%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+
+p, span {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+  }
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+  }
+  
+a:hover {
+    color: #d6370c;
+    text-decoration: underline;
+  }
+
+main {
+    height: 100vh;
+}
+
+ul li {
+    margin-left: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.button {
+    background-color: #0477BF;
+    border-radius: 10px;
+    color: white;
+}
+
+button{
+    color: white !important;
+}
