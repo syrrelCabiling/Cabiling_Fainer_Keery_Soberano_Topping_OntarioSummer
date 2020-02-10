@@ -6,12 +6,11 @@ Description
 * [Sass](https://sass-lang.com "Sass") - Syntactically Awesome Style Sheets
 * [Node.js](https://nodejs.org/en/ "Node") - JavaScript Run-time Environment
 * [Express](https://expressjs.com "Express") - Framework for Node.js
-* [Hbs]- (https://www.npmjs.com/package/hbs) - Handlebars
 * [Gulp-sass]
 
 ## Author
 * **Syrrel Cabiling** (https://github.com/syrrelCabiling)
-* **To add more...**
+* **Liam Keery** (https://github.com/liamkeery)
 
 ## MMED 3013
 - [] Itemized proposal quote
@@ -112,11 +111,11 @@ $ cd Desktop
 
 # Clone this repository to your local machine
 
-$ git clone https://github.com/syrrelCabiling/Cabiling_Syrrel_Portfolio.git
+$ git clone https://github.com/syrrelCabiling/Cabiling_Fainer_Keery_Soberano_Topping_OntarioSummer.git
 
 # Go into the repository
 
-$ cd Cabiling_Syrrel_Portfolio
+$ cd Cabiling_Fainer_Keery_Soberano_Topping_OntarioSummer
 ```
 ## Acknowledgements
 * Fonts (https://fonts.google.com)

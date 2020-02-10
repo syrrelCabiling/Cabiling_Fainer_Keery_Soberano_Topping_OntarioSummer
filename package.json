@@ -1,0 +1,27 @@
+{
+  "name": "Cabiling_Fainer_Keery_Soberano_Topping_OntarioSummer",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syrrelCabiling/Cabiling_Fainer_Keery_Soberano_Topping_OntarioSummer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syrrelCabiling/Cabiling_Fainer_Keery_Soberano_Topping_OntarioSummer/issues"
+  },
+  "homepage": "https://github.com/syrrelCabiling/Cabiling_Fainer_Keery_Soberano_Topping_OntarioSummer#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
