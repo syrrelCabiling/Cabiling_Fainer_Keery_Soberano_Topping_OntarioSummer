@@ -5,7 +5,7 @@ Description
 * [Bootstrap](https://getbootstrap.com) - Bootstrap Framework
 * [Sass](https://sass-lang.com "Sass") - Syntactically Awesome Style Sheets
 * [Node.js](https://nodejs.org/en/ "Node") - JavaScript Run-time Environment
-* [Express](https://expressjs.com "Express") - Framework for Node.js
+* [VueJS](https://vuejs.org/ "Vue.js") - JS Framework
 * [Gulp-sass]
 
 ## Author

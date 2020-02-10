@@ -1,10 +1,10 @@
 {
-  "name": "Cabiling_Fainer_Keery_Soberano_Topping_OntarioSummer",
+  "name": "cabiling_fainer_keery_soberano_topping_ontariosummer",
   "version": "1.0.0",
   "description": "Description",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node start"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,5 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "dependencies": {}
 }
