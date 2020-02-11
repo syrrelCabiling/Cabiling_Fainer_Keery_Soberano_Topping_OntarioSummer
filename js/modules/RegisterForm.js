@@ -9,7 +9,7 @@ export default {
                 <label for="last-name">Last Name:</label>
                 <input type="text" value="" name="last-name" placeholder="Last Name"/>
                 <br>
-                <label for="email>Email:</label>
+                <label for="email">Email:</label>
                 <input type="email" value="" name="email" placeholder="Email"/>
                 <br>
                 <label for="country">Country:</label>

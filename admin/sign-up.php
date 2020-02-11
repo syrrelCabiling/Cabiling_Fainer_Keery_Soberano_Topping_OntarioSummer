@@ -12,7 +12,6 @@ if (isset($_POST['submit'])) {
     if (!empty($first_name) && !empty($last_name) && !empty($email) && !empty($country)) {
         // Submit form
         register($first_name, $last_name, $email, $country);
-        echo "<p>Thanks for registering!</p>";
     } else {
         echo "<p>Please fill out the required fields.</p>";
     }
