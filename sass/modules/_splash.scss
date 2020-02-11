@@ -1,12 +1,22 @@
-.cover-container {
-    background-color: red;
-}
 
 .splash-bg {
-    background: url('images/bg.jpg');
+    background-image: url('images/hackathon_ontario_video_v02.mp4');
     background-size: cover;
   }
 
 .splash-txt {
     margin-top: 50%;
+}
+
+.jumbotron-fluid video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -100;
+        width:100%;
+
+
 }

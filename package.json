@@ -2,9 +2,9 @@
   "name": "cabiling_fainer_keery_soberano_topping_ontariosummer",
   "version": "1.0.0",
   "description": "Description",
-  "main": "app.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node app"
+    "start": ""
   },
   "repository": {
     "type": "git",
