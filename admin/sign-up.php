@@ -1,6 +1,6 @@
 <?php
-    require_once 'functions.php';
     require_once 'connect.php';
+    require_once 'functions.php';
 
 if (isset($_POST['submit'])) {
 
@@ -9,13 +9,15 @@ if (isset($_POST['submit'])) {
     $email = trim($_POST['email']);
     $country = trim($_POST['country']);
 
-    if (!empty($first_name) && !empty($last_name) && !empty($email) && !empty($country)) {
+    register($first_name, $last_name, $email, $country);
+
+    // if (!empty($first_name) && !empty($last_name) && !empty($email) && !empty($country)) {
         
-        register($first_name, $last_name, $email, $country);
-        
-    } else {
-        $message = "<p>Please fill out the required fields.</p>";
-    }
+    //     register($first_name, $last_name, $email, $country);
+
+    // } else {
+    //     $message = "<p>Please fill out the required fields.</p>";
+    // }
 }
 ?>
 
