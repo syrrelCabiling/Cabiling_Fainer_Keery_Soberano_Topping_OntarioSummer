@@ -1,5 +1,10 @@
+import HeaderSection from "./HeaderSection.js";
+import Footer from "./Footer.js";
+
 export default { //everything should go inside the section tag
     template: ` 
+
+    
         <section class="container">
             <div class="row">
             <div class="col splash-txt">
@@ -8,6 +13,8 @@ export default { //everything should go inside the section tag
             </div>
             </div>
 
+
+            <HeadSection></HeadSection>
 
 
 
@@ -45,10 +52,19 @@ export default { //everything should go inside the section tag
                       </div>
                   </div>    
               </div> 
-              
-              
 
-              <div class="row">
+
+             
+
+    <div class="eat-img-bckgrd row">
+        <img src="images/Blue-Mountain.png" alt="blue mountain" style="position:absolute; opacity: 0.6;">
+    </div>
+
+
+
+    <div class="row eat-section">
+
+        
 
       <div class="col-lg-4 center-me-2">
           <h1>EAT</h1>
@@ -61,7 +77,7 @@ export default { //everything should go inside the section tag
 
 
         <div class="eat-img  col-lg-6 center-me">
-          <img src="images/360-restaurant.svg" alt="360 bitch">
+          <img src="images/360-restaurant.svg" alt="360">
         </div>
 
 
@@ -71,23 +87,23 @@ export default { //everything should go inside the section tag
 
           <p>featured pick</p>
 
-          <div class="center-me">
+          <div class="center-me eat-bars">
             <p>location</p>
             <p>$$$</p>
-            <p>stars</p>
+            <p>★★★★</p>
 
           </div>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
 
-            <button>reserve</button>
+            <button class="reserve-button">☑ RESERVE</button>
         </div>
 
 
 
 
         <div class="eat-img  col-lg-6 center-me">
-          <img src="images/ag-cuisine.svg" alt="360 bitch">
+          <img src="images/ag-cuisine.svg" alt="360 ">
         </div>
 
 
@@ -97,22 +113,22 @@ export default { //everything should go inside the section tag
 
           <p>featured pick</p>
 
-          <div class="center-me">
+          <div class="center-me eat-bars">
             <p>location</p>
             <p>$$$</p>
-            <p>stars</p>
+            <p>★★★★</p>
 
           </div>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
 
-            <button>reserve</button>
+            <button class="reserve-button">☑ RESERVE</button>
         </div>
 
 
 
         <div class="eat-img  col-lg-6 center-me">
-          <img src="images/360-restaurant.svg" alt="360 bitch">
+          <img src="images/360-restaurant.svg" alt="360 ">
         </div>
 
 
@@ -122,16 +138,16 @@ export default { //everything should go inside the section tag
 
           <p>featured pick</p>
 
-          <div class="center-me">
+          <div class="center-me eat-bars">
             <p>location</p>
             <p>$$$</p>
-            <p>stars</p>
+            <p>★★</p>
 
           </div>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
 
-            <button>reserve</button>
+            <button class="reserve-button">☑ RESERVE</button>
         </div>
 
 
@@ -140,6 +156,13 @@ export default { //everything should go inside the section tag
     
     </div>
 
+    </div>
+
+    <div class="row" style="padding-top: 50px;">
+        <div class="col-lg-12 center-me">
+            <h1>Stay</h1>
+            <img src="images/Logos/LOGO-FINAL-05.png" alt="logo" style="width:10%;">
+        </div>
     </div>
 
 
@@ -177,8 +200,105 @@ export default { //everything should go inside the section tag
         </a>
       </div>
     </div>
+
+
+    <div class="row" style="padding-top: 50px;">
+    <div class="col-lg-12 center-me">
+        <h1>Discover</h1>
+        <img src="images/Logos/LOGO-FINAL-05.png" alt="logo" style="width:10%;">
+    </div>
+</div>
+
+
+<div class="col-lg-12 discover-container">
+
+<div class="eat-img  col-lg-6 center-me">
+  <img src="images/helicopter-tour.png" alt="360">
+</div>
+
+
+<div class="eat-card col-lg-6">
+
+  <h1>Helicopter Tour</h1>
+
+  <p>featured pick</p>
+
+  <div class="center-me eat-bars">
+    <p>location</p>
+    <p>$$$</p>
+    <p>★★★★</p>
+
+  </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+
+    <button class="reserve-button">View Packages</button>
+
+
+  </div>
+
+
+  <div class="eat-img  col-lg-6 center-me">
+    <img src="images/jays.png" alt="360">
+  </div>
+
+
+  <div class="eat-card col-lg-6">
+
+    <h1>Blue Jays Game</h1>
+
+    <p>featured pick</p>
+
+    <div class="center-me eat-bars">
+      <p>location</p>
+      <p>$$$</p>
+      <p>★★★★</p>
+
+    </div>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+
+      <button class="reserve-button">View Packages</button>
+
+
+    </div>
+
+
+    <div class="eat-img  col-lg-6 center-me">
+      <img src="images/mountain.png" alt="360">
+    </div>
+
+
+    <div class="eat-card col-lg-6">
+
+      <h1>Mountain Biking</h1>
+
+      <p>featured pick</p>
+
+      <div class="center-me eat-bars">
+        <p>location</p>
+        <p>$$$</p>
+        <p>★★★★</p>
+
+      </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+
+        <button class="reserve-button">View Packages</button>
+
+
+      </div>
+  </div>
+
+
+
+
     
+
+    <FooterSection></FooterSection> 
         </section>
+
+         
 
 
     `,
@@ -193,5 +313,10 @@ export default { //everything should go inside the section tag
         registerUser() {
             console.log('clicked register button');
         }
+    },
+
+    components: {
+      HeadSection: HeaderSection,
+      FooterSection: Footer
     }
 }

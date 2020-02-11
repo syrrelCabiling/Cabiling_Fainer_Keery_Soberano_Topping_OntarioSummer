@@ -92,6 +92,8 @@ button{
     flex-wrap: wrap;
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.35);
     border-radius: 10px;
+    background-color: #fff;
+    border-right: solid 5px #f2a03d;
 }
 
 .eat-card{
@@ -100,6 +102,7 @@ button{
     width: 50%;
     // background-color: green;
     padding-top: 25px;
+    text-align: center;
 
 }
 
@@ -147,4 +150,52 @@ button{
 
 .carousel-control-next, .carousel-control-prev{
     color: #000 !important;
+}
+
+.reserve-button{
+    background-color: #007bff;
+    border: none;
+    font-size: 24px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px;
+}
+
+.eat-bars{
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    p{
+        padding: 5px 30px 5px 30px;
+        display: block;
+        margin: 0;
+    }
+}
+
+.eat-section{
+    text-align: center;
+
+
+}    i
+
+.eat-img-bckgrd {
+
+    width: 100%;
+    position: absolute;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+.discover-container{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
 }
