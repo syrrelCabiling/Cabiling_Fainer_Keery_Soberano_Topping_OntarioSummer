@@ -59,6 +59,10 @@ export default { //everything should go inside the section tag
           <img src="images/Logos/LOGO-FINAL-05.png" alt="logo">
       </div>
 
+      <div style="position: absolute">
+        <img src="images/Blue-Mountain.png">
+      </div>
+
       <div class="col-lg-8 eat-container">
         <div class="eat-img  col-lg-6 center-me">
           <img src="images/360-restaurant.svg" alt="360">

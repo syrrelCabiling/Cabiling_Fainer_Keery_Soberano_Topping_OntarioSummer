@@ -7,8 +7,8 @@ export default {
 
     <img class="logo-sml" src="images/Logos/LOGO-FINAL-01.png" alt="Logo">
     
-    <div class="row">
-        <div class="col-lg-5 form-con">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 form-con">
 
         <div class="form-head">
         <a href="/" class="back"><i class="fas fa-chevron-left"></i></a>
