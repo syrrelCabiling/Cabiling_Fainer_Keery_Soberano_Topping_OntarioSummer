@@ -1,116 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://unpkg.com/vue/dist/vue.js"></script> <!--VUE-->
-    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script><!--Works like handlebars-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Ontario Summer</title>
-</head>
-<body class="text-center" data-gr-c-s-loaded="true" cz-shortcut-listen="true" data-spy="scroll" data-target="#mainNav">
-    <main id="app"> 
-    <div class="jumbotron-fluid" id="home">
-        <video autoplay muted loop>    
-            <source src="/images/hackathon_ontario_video_v02.mp4" type="video/mp4">
-        </video>
-      <header class="mb-auto">
-          <!-- NAVIGATION HERE -->
-          
-                <nav class="navbar navbar-expand-sm navbar-inverse navbar-toggleable-sm fixed-top navbar-fixed-top">
-                    <!-- Brand/logo -->
-                    <a class="navbar-brand" href="#">
-                    <img src="/images/Logos/LOGO-FINAL-01.png" alt="logo" width="200" class="ml-3">
-                    </a>
-                    
-                    <!-- Toggler/collapsibe Button -->
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://unpkg.com/vue/dist/vue.js"></script> <!--VUE-->
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script><!--Works like handlebars-->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <title>Ontario Summer</title>
+    </head>
+    <body data-gr-c-s-loaded="true" cz-shortcut-listen="true" data-spy="scroll"
+        data-target="#mainNav">
 
-                    <!-- Navbar links -->
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav ml-auto mr-4">
-                        <li class="nav-item">
-                            <router-link to="/" class="nav-link">HOME</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="/" class="nav-link">EAT</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="/" class="nav-link">STAY</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="/register" class="nav-link"><button class="btn btn-primary register">REGISTER</button></router-link>
-                        </li>
-                        </ul>
-                    </div>
-                    </nav>
-      </header>
-    </div>
+        <main id="app">
+            <router-view></router-view>
+        </main>
 
-    <router-view></router-view>
-</main>
-      <!-- THREE CARDS -->
-      <div class="cards">
-            <div class="row no-gutters my-3">
-                <div class="col-md-4 col-sm-12 pr-0">
-                    <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white">
-                        <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
-                        <p class="eat-cap mx-auto">EAT</p>
-                        <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ratione dolorum nesciunt ducimus eos aliquam distinctio necessitatibus placeat vero magnam facilis nobis, adipisci esse odio similique, soluta iste, minus obcaecati! </p>
-                        <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="list-group text-center bg-alt shadow p-3 mb-5 bg-white">
-                        <h4 class="stay-cap mx-auto">STAY</h4>
-                        <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
-                        <p class="card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nihil obcaecati veritatis perferendis distinctio ab maxime. Magnam, laborum ducimus ullam, accusantium temporibus quaerat tempora, architecto ratione autem at accusamus nulla. veritatis perferendis distinctio ab maxime. Magnam, laborum ducimus ullam, accusantium temporibus quaerat tempora, architecto ratione autem at accusamus nulla.</p>
-                        <div class="bg-inverse">
-                            <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 pl-0">
-                    <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white">
-                        <h4 class="dis-cap text-center">DISCOVER</h4>
-                        <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
-                        <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ratione dolorum nesciunt ducimus eos aliquam distinctio necessitatibus placeat vero magnam facilis nobis, adipisci esse odio similique, soluta iste, minus obcaecati!</p>
-                        <div class="bg-inverse">
-                            <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-        </div>
-        </div>
-
-    </div>
-
-    </div>
-
-          <!-- FOOTER -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Ontario Summer</p>
-      </div>
-      <!-- /.container -->
-    </footer>
-</main>
-
-       
-    
-
-   
-    
-   
-    <script src="js/main.js" type="module"></script>
-    <script src="js/scroll.js" type="module"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+        <script src="js/main.js" type="module"></script>
+        <script src="js/scroll.js" type="module"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </body>
 </html>

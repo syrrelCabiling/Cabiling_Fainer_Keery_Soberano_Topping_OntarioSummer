@@ -1,18 +1,36 @@
+import HeaderSection from "./HeaderSection.js";
+
 export default {
     template: ` 
-    <section>
-        <h1>Register</h1>
+    <section class="container" id="form-section">
+    <div class="row">
+        <div class="col-lg-5 form-con">
+        <h1 class="reg-heading">Register</h1>
         <?php echo $message; ?>
             <form class="form" action="sign-up.php" method="POST">
+
+                <div class="form-group">
                 <label for="first-name">First Name:</label>
-                <input type="text" value="" name="first-name" placeholder="First Name"/>
+                <input class="form-control" required type="text" value="" name="first-name" placeholder="First Name"/>
+                </div>
+
                 <br>
+
+                <div class="form-group">
                 <label for="last-name">Last Name:</label>
-                <input type="text" value="" name="last-name" placeholder="Last Name"/>
+                <input class="form-control" required type="text" value="" name="last-name" placeholder="Last Name"/>
+                </div>
+                
                 <br>
+
+                <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" value="" name="email" placeholder="Email"/>
+                <input class="form-control" required type="email" value="" name="email" placeholder="Email"/>
+                </div>
+
                 <br>
+                
+                <div class="form-group">
                 <label for="country">Country:</label>
                 <select id="country" name="country" class="form-control">
                 <option value="Afghanistan">Afghanistan</option>
@@ -260,9 +278,12 @@ export default {
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
             </select>
+            </div>
             <br>
-            <button type="submit" class="button">Submit</button>
+            <button type="submit" class="btn-lg btn-primary">Submit</button>
             </form>
+            </div>
+            </div>
         </section>
 `,
 
@@ -276,5 +297,9 @@ methods: {
     // registerUser() {
     //     console.log('Register Clicked');
     // }
+},
+
+components: {
+    Jumbotron: HeaderSection
 }
 }

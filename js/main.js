@@ -6,7 +6,8 @@ import RegisterForm from "./modules/RegisterForm.js";
 
 
 const router = new VueRouter ({ //This acts like app.get router using node and express
-    routes: [
+  // mode: 'history',
+  routes: [
         { path: '/', name: "splash", component: SplashPage }, //SplashPage will be rendered out inside router-view!!!!!!!!!!!!
         { path: '/app', name: "app", component: AppPage }, //AppPage will be rendered out inside router-view!!!!!!!!!!!!
         { path: '*', name: "error", component: ErrorPage }, //* catches anything that doesnt match MAKE THIS THE VERY LAST TO AVOID PROBLEMSe
