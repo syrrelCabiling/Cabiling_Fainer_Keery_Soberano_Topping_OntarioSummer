@@ -26,15 +26,25 @@ export default { //everything should go inside the section tag
                           <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white rounded">
                               <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
                               <p class="eat-cap mx-auto">EAT</p>
-                              <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ratione dolorum nesciunt ducimus eos aliquam distinctio necessitatibus placeat vero magnam facilis nobis, adipisci esse odio similique, soluta iste, minus obcaecati! </p>
+                              <br>
+                              <br>
+                              <p class="card-desc">With all the things to do in Ontario, you’re sure to work up an appetite. Satisfy your cravings at some of our must eat destinations.
+                              </p>
                               <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
                           </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12">
                           <div class="list-group text-center bg-alt shadow p-3 mb-5 bg-white rounded">
                               <h4 class="stay-cap mx-auto">STAY</h4>
+                             
                               <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
-                              <p class="card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nihil obcaecati veritatis perferendis distinctio ab maxime. Magnam, laborum ducimus ullam, accusantium temporibus quaerat tempora, architecto ratione autem at accusamus nulla. veritatis perferendis distinctio ab maxime. Magnam, laborum ducimus ullam, accusantium temporibus quaerat tempora, architecto ratione autem at accusamus nulla.</p>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <p class="card-desc">Be sure to check out some of our top city recommendations to host your stay when you’re exploring Ontario.
+                              </p>
                               <div class="bg-inverse">
                                   <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
                               </div>
@@ -44,7 +54,10 @@ export default { //everything should go inside the section tag
                           <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white rounded">
                               <h4 class="dis-cap text-center">DISCOVER</h4>
                               <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
-                              <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ratione dolorum nesciunt ducimus eos aliquam distinctio necessitatibus placeat vero magnam facilis nobis, adipisci esse odio similique, soluta iste, minus obcaecati!</p>
+                              <br> <br>
+                              
+                              <p class="card-desc">There’s never a dull moment in Ontario. Start exploring some our many attractions that are sure to keep you busy throughout your stay. 
+                              </p>
                               <div class="bg-inverse">
                                   <button class="btn btn-primary text-truncate w-50 mx-auto">EXPLORE</button>
                               </div>
@@ -82,7 +95,8 @@ export default { //everything should go inside the section tag
 
           </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+            <p>The Restaurant at the CN Tower, features market-fresh, locally sourced and sustainable Canadian cuisine that features fine dining at new heights. Paired with an award-winning selection of Canadian wines, this experience is one that is sure to be unmatched. Rotate around one the tallest buildings in the world while enjoying a meal that is top of its class.
+            </p>
 
             <button class="reserve-button">☑ RESERVE</button>
         </div>
@@ -108,7 +122,8 @@ export default { //everything should go inside the section tag
 
           </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+            <p>One of Niagara’s best features is the ever-growing vineyard. AG Winemakers offers Niagara’s own wine paired with gourmet meals, created with fresh produce from their on-site farm. Whether you want to host a special event or just grab dinner with someone special, this is one place you do not want to skip.
+            </p>
 
             <button class="reserve-button">☑ RESERVE</button>
         </div>
@@ -122,7 +137,7 @@ export default { //everything should go inside the section tag
 
         <div class="eat-card col-lg-6">
 
-          <h1>Restaurant</h1>
+          <h1>Lock 21</h1>
 
           <p>featured pick</p>
 
@@ -133,7 +148,8 @@ export default { //everything should go inside the section tag
 
           </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+            <p>Located in the famous Peterborough Locks, guests can dine fine cuisine at 20 metres below sea level. Soak up the rich history while enjoying a unique meal, Lock 21 offers a dining experience that should be on your bucket list. Some have said to even have ghostly encounters while enjoying this one of a kind experience.
+            </p>
 
             <button class="reserve-button">☑ RESERVE</button>
         </div>
@@ -161,7 +177,9 @@ export default { //everything should go inside the section tag
           <div class="carousel-item active">
             <div class="carousel-content">
               <img class="d-block w-100" src="images/bg.jpg" alt="First slide">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam maxime eum inventore, repudiandae harum odit ducimus unde veritatis amet!</p>
+              <h1>Toronto</h1>
+              <p>A city that is filled with culture, creativity and cool photo ops. Not only that, but you can see it all from above too with the 360 birds-eye view from the CN Tower. 
+              </p>
               <button class="reserve-button">View Packages</button>
               </div>
             
@@ -169,14 +187,18 @@ export default { //everything should go inside the section tag
           <div class="carousel-item">
             <div class="carousel-content">
               <img class="d-block w-100" src="images/bg.jpg" alt="Second slide">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam maxime eum inventore, repudiandae harum odit ducimus unde veritatis amet!</p>
+              <h1>Ottawa</h1>
+              <p>The capital of the country in the heart of Ontario. Explore our nations history with a trip to Parliament Hill and then take a walk to the famous Rideau Canal.
+              </p>
               <button class="reserve-button">View Packages</button>
               </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-content">
             <img class="d-block w-100" src="images/bg.jpg" alt="Third slide">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam maxime eum inventore, repudiandae harum odit ducimus unde veritatis amet!</p>
+            <h1>Niagara</h1>
+            <p>Checkout the thrills that line the street of Clifton Hill, then cool off with a trip to the falls on the Maid of the Mist. If that’s not your speed, there are plenty of winery tours at Niagara on the Lake.
+            </p>
             <button class="reserve-button">View Packages</button>
             </div>
           </div>
@@ -279,6 +301,12 @@ export default { //everything should go inside the section tag
 
 
       </div>
+  </div>
+
+  <div class="row">
+  
+  <video src="images/hackathon_ontario_video_v02.mp4" style="width:100%; padding-bottom: 50px;" controls></video>
+  
   </div>
 
 
