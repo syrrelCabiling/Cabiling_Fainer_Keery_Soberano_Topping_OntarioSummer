@@ -1,3 +1,5 @@
+import HeaderSection from "./HeaderSection.js";
+
 export default {
     template: ` 
     <section class="container" id="form-section">
@@ -278,7 +280,7 @@ export default {
             </select>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn-lg btn-primary">Submit</button>
             </form>
             </div>
             </div>
@@ -295,5 +297,9 @@ methods: {
     // registerUser() {
     //     console.log('Register Clicked');
     // }
+},
+
+components: {
+    Jumbotron: HeaderSection
 }
 }
