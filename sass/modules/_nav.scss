@@ -1,13 +1,41 @@
-.navbar {
-    background-color: transparent;
-}
-.navbar-toggle{
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    z-index: 3;
-}
+// .navbar-trans {
+//     background: transparent; 
+// }
 
-.navbar-toggle .icon-bar {
-    background-color: #fff;
+// .navbar-toggle{
+//     background-color: transparent;
+//     background-image: none;
+//     border: 1px solid transparent;
+//     z-index: 3;
+// }
+
+
+.navbar a {
+   color: white;
+ }
+
+ .nav-link {
+     font-size: 16px;
+ }
+
+ .navbar-toggler {
+     background-color: white;
+ }
+
+ .navbar-toggler-icon {
+    background-color: white;
+ }
+
+ .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-fixed-top.scrolled .nav-link {
+    color:#000;
+  }
+
+
+  .navbar-toggler-icon span{
+    background-color: #000 !important;
 }

@@ -2,6 +2,7 @@ export default {
     template: ` 
     <section>
         <h1>Register</h1>
+        <?php echo $message; ?>
             <form class="form" action="sign-up.php" method="POST">
                 <label for="first-name">First Name:</label>
                 <input type="text" value="" name="first-name" placeholder="First Name"/>
@@ -9,7 +10,7 @@ export default {
                 <label for="last-name">Last Name:</label>
                 <input type="text" value="" name="last-name" placeholder="Last Name"/>
                 <br>
-                <label for="email>Email:</label>
+                <label for="email">Email:</label>
                 <input type="email" value="" name="email" placeholder="Email"/>
                 <br>
                 <label for="country">Country:</label>
@@ -267,13 +268,13 @@ export default {
 
 data: function() {
     return {
-        message: "Welcome"
+        //message: "Welcome"
     }
 },
 
 methods: {
-    registerUser() {
-        console.log('clicked register button');
-    }
+    // registerUser() {
+    //     console.log('Register Clicked');
+    // }
 }
 }
