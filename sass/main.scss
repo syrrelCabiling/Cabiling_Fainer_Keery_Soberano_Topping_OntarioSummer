@@ -2,7 +2,8 @@
 @import 'modules/_nav';
 @import 'modules/_splash';
 @import 'modules/_cards';
-@import 'modules/mediaqueries';
+@import 'modules/_footer';
+@import 'modules/_mediaqueries';
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Raleway:400,700,800&display=swap');
 
@@ -12,7 +13,8 @@ html {
 }
 
 body {
-    height: 100%;
+    min-height: 100%;
+    position: relative;
     margin: auto;
 }
 

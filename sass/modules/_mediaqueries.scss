@@ -1,11 +1,22 @@
 @media (min-width: 375px) { 
+    .navbar {
+        background-color: black;
+        opacity: 1;
+    }
      video {
-        min-width: 100%; 
-        min-height: 100%;
+        object-fit: cover;
+        transform: scale(50%);
      }
  }
 
 @media (min-width: 992px) { 
+    .main-logo {
+        opacity: 1 !important;
+    }
+    .navbar {
+        background-color: transparent;
+    }
+
     .splash-txt {
         margin-top: 25%;
     }

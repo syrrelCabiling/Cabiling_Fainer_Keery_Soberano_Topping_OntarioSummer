@@ -19,11 +19,7 @@
  }
 
  .navbar-toggler {
-     background-color: white;
- }
-
- .navbar-toggler-icon {
-    background-color: white;
+     background-color: transparent !important;
  }
 
  .navbar-fixed-top.scrolled {
@@ -36,6 +32,45 @@
   }
 
 
-  .navbar-toggler-icon span{
-    background-color: #000 !important;
+//   .navbar-toggler-icon{
+//     background-color: #000 !important;
+//     margin-bottom: 2px;
+//     display: inline-block;
+// }
+
+.navbar-toggle .icon-bar {
+    display: block;
+    margin-bottom: 5px;
+    width: 27px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #0477bf /* change this to any color you want! */;
+
+      transition: all 0.2s;
 }
+
+.top-bar {
+  transform: rotate(55deg);
+  transform-origin: 10% 10%;
+}
+.middle-bar {
+  opacity: 0;
+}
+.bottom-bar {
+  transform: rotate(-55deg);
+  transform-origin: 10% 80%;
+}
+
+
+.navbar-toggle.collapsed {
+  .top-bar {
+    transform: rotate(0);
+  }
+  .middle-bar {
+    opacity: 1;
+  }
+  .bottom-bar {
+    transform: rotate(0);
+  }
+}
+
