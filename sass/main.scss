@@ -64,3 +64,42 @@ ul li {
 button{
     color: white !important;
 }
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-me-1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.eat-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eat-card{
+    // display: flex;
+    // flex-wrap: wrap;
+    width: 50%;
+    background-color: green;
+
+}
+
+.eat-img{
+    width: 50%;
+    display: flex;
+    background-color: hotpink;
+
+
+} 
+
+.center-me-2{
+    img{
+        width:40%
+    }
+}
