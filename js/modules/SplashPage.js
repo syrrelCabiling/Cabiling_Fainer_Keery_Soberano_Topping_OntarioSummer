@@ -174,20 +174,23 @@ export default { //everything should go inside the section tag
             <div class="carousel-content">
               <img class="d-block w-100" src="images/bg.jpg" alt="First slide">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam maxime eum inventore, repudiandae harum odit ducimus unde veritatis amet!</p>
-            </div>
+              <button class="reserve-button">View Packages</button>
+              </div>
             
           </div>
           <div class="carousel-item">
             <div class="carousel-content">
               <img class="d-block w-100" src="images/bg.jpg" alt="Second slide">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam maxime eum inventore, repudiandae harum odit ducimus unde veritatis amet!</p>
-            </div>
+              <button class="reserve-button">View Packages</button>
+              </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-content">
             <img class="d-block w-100" src="images/bg.jpg" alt="Third slide">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam maxime eum inventore, repudiandae harum odit ducimus unde veritatis amet!</p>
-          </div>
+            <button class="reserve-button">View Packages</button>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
