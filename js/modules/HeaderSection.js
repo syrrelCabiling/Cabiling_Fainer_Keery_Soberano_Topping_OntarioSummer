@@ -2,7 +2,7 @@ export default {
     template: `
     <div class="jumbotron-fluid" id="home">
     <video autoplay muted loop>    
-        <source src="./images/hackathon_ontario_video_v02.mp4" type="video/mp4">
+        <source src="./images/short_video_hackathon.mp4" type="video/mp4">
     </video>
   <header class="mb-auto">
       <!-- NAVIGATION HERE -->
