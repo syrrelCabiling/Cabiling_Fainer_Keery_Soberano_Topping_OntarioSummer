@@ -121,8 +121,7 @@ html {
   margin: auto; }
 
 body {
-  min-height: 100%;
-  position: relative;
+  height: 100%;
   margin: auto; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -191,7 +190,10 @@ button {
 
 .eat-card {
   width: 50%;
-  padding-top: 25px; }
+  padding-top: 25px; 
+  border-radius: 10px;
+  background-color: #fff;
+  border-right: solid 5px #f2a03d; }
 
 .eat-img {
   width: 50%;
@@ -227,4 +229,54 @@ button {
 .carousel-control.left, .carousel-control.right {
   background-image: none; }
 
+.carousel-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .carousel-content img {
+    width: 50% !important; }
+  .carousel-content p {
+    width: 50%; }
+
+.carousel-container {
+  padding-top: 55px; }
+
+.carousel-control-next, .carousel-control-prev {
+  color: #000 !important; }
+
+.reserve-button {
+  background-color: #007bff;
+  border: none;
+  font-size: 24px;
+  padding: 5px 25px 5px 25px;
+  border-radius: 10px; }
+
+.eat-bars {
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; }
+  .eat-bars p {
+    padding: 5px 30px 5px 30px;
+    display: block;
+    margin: 0; }
+
+.eat-section {
+  text-align: center; }
+
+i
+.eat-img-bckgrd {
+  width: 100%;
+  position: absolute; }
+  i
+  .eat-img-bckgrd img {
+    width: 100%; }
+
+.discover-container {
+  display: flex;
+  flex-wrap: wrap; }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Raleway:400,700,800&display=swap");.navbar a{color:white}.nav-link{font-size:16px}.navbar-toggler{background-color:white}.navbar-toggler-icon{background-color:white}.navbar-fixed-top.scrolled{background-color:#fff !important;transition:background-color 200ms linear}.navbar-fixed-top.scrolled .nav-link{color:#000}.navbar-toggler-icon span{background-color:#000 !important}.splash-bg{background-image:url("images/hackathon_ontario_video_v02.mp4");background-size:cover}.splash-txt{margin-top:50%;color:white}.jumbotron-fluid video{position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;z-index:-100;width:100%}.eat-cap{position:absolute;font-weight:bolder;color:white;margin-top:25%;right:45%;font-size:30px;z-index:3}.stay-cap{position:absolute;font-weight:bolder;color:white;margin-top:25%;right:40%;font-size:30px;z-index:3}.dis-cap{position:absolute;font-weight:bolder;color:white;margin-top:25%;right:30%;font-size:30px;z-index:3}.list-group{border-bottom:5px solid #f2a03d}.stay-card{z-index:5}@media (min-width: 375px){video{min-width:100%;min-height:100%}}@media (min-width: 992px){.splash-txt{margin-top:25%}.splash-txt h1{font-size:4rem}}html{scroll-behavior:smooth;margin:auto}body{height:100%;margin:auto;background:#eeeeee}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:0.5rem;font-family:'Montserrat', sans-serif;font-weight:800}p,span{margin-top:0;margin-bottom:1rem;font-family:'Raleway', sans-serif}a{text-decoration:none;font-family:'Raleway', sans-serif;color:white}a:hover{color:#d6370c;text-decoration:underline}main{height:100vh}.main-logo{width:30%;margin-left:0px}ul li{margin-left:16px;font-family:'Raleway', sans-serif;color:white}.button{background-color:#0477BF;border-radius:10px;color:white}button{color:white !important}.btn-primary{background-color:#0477bf !important;border-color:#59a0d7}.btn-primary:hover{background-color:none !important;border-color:#004e8a}.center-me{display:flex;justify-content:center;align-items:center}.center-me-1{display:flex;justify-content:center;align-items:flex-start}.eat-container{display:flex;flex-wrap:wrap;box-shadow:0px 0px 30px 0px rgba(0,0,0,0.35);border-radius:10px}.eat-card{width:50%;padding-top:25px}.eat-img{width:50%;display:flex}.eat-img img{width:100%;padding:25px 0 25px 0}.center-me-2{margin-top:20px}.center-me-2 h1{display:inline}.center-me-2 img{width:40%}.carousel-inner .item.left.active{transform:translateX(-33%)}.carousel-inner .item.right.active{transform:translateX(33%)}.carousel-inner .item.next{transform:translateX(33%)}.carousel-inner .item.prev{transform:translateX(-33%)}.carousel-inner .item.right,.carousel-inner .item.left{transform:translateX(0)}.carousel-control.left,.carousel-control.right{background-image:none}.form-con{background:white;padding:30px;margin:0 auto}.reg-heading{text-align:center;color:#0477BF}.form{margin:0 auto}.back i{font-size:28px;margin-right:24px}.form-head{align-items:center;justify-content:center;display:flex;margin-bottom:20px}.logo-sml{max-width:180px;margin:0 auto;display:block;padding-top:20px}
 /*# sourceMappingURL=main.css.map */
