@@ -4,8 +4,8 @@
 
 if (isset($_POST['submit'])) {
 
-    $first_name = trim($_POST['first_name']);
-    $last_name = trim($_POST['last_name']);
+    $first_name = trim($_POST['first-name']);
+    $last_name = trim($_POST['last-name']);
     $email = trim($_POST['email']);
     $country = trim($_POST['country']);
 
@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
         // Submit form
         register($first_name, $last_name, $email, $country);
     } else {
-        echo "<p>Please fill out the required fields.</p>";
+        $message = "<p>Please fill out the required fields.</p>";
     }
 }
 ?>
