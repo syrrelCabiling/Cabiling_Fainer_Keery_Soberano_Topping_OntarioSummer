@@ -44,7 +44,103 @@ export default { //everything should go inside the section tag
                           </div>
                       </div>
                   </div>    
-              </div>    
+              </div> 
+              
+              
+
+              <div class="row">
+
+      <div class="col-lg-4 center-me-2">
+          <h1>EAT</h1>
+          <img src="images/Logos/LOGO-FINAL-05.png" alt="logo">
+
+      </div>
+
+      <div class="col-lg-8 eat-container">
+
+
+
+        <div class="eat-img  col-lg-6 center-me">
+          <img src="images/360-restaurant.svg" alt="360 bitch">
+        </div>
+
+
+        <div class="eat-card col-lg-6">
+
+          <h1>360 Restaurant</h1>
+
+          <p>featured pick</p>
+
+          <div class="center-me">
+            <p>location</p>
+            <p>$$$</p>
+            <p>stars</p>
+
+          </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+
+            <button>reserve</button>
+        </div>
+
+
+
+
+        <div class="eat-img  col-lg-6 center-me">
+          <img src="images/ag-cuisine.svg" alt="360 bitch">
+        </div>
+
+
+        <div class="eat-card col-lg-6">
+
+          <h1>AG Cuisine</h1>
+
+          <p>featured pick</p>
+
+          <div class="center-me">
+            <p>location</p>
+            <p>$$$</p>
+            <p>stars</p>
+
+          </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+
+            <button>reserve</button>
+        </div>
+
+
+
+        <div class="eat-img  col-lg-6 center-me">
+          <img src="images/360-restaurant.svg" alt="360 bitch">
+        </div>
+
+
+        <div class="eat-card col-lg-6">
+
+          <h1>Restaurant</h1>
+
+          <p>featured pick</p>
+
+          <div class="center-me">
+            <p>location</p>
+            <p>$$$</p>
+            <p>stars</p>
+
+          </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque a quo minus ut fugit exercitationem ex suscipit itaque deserunt.</p>
+
+            <button>reserve</button>
+        </div>
+
+
+      </div>
+    
+    
+    </div>
+
+    </div>
     
         </section>
 
