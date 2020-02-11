@@ -1,22 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Raleway:400,700,800&display=swap");
-.navbar {
-  background-color: transparent; }
+.navbar a {
+  color: white; }
 
-.navbar-toggle {
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  z-index: 3; }
+.nav-link {
+  font-size: 16px; }
 
-.navbar-toggle .icon-bar {
-  background-color: #fff; }
+.navbar-toggler {
+  background-color: white; }
+
+.navbar-toggler-icon {
+  background-color: white; }
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear; }
+
+.navbar-fixed-top.scrolled .nav-link {
+  color: #000; }
+
+.navbar-toggler-icon span {
+  background-color: #000 !important; }
 
 .splash-bg {
   background-image: url("images/hackathon_ontario_video_v02.mp4");
   background-size: cover; }
 
 .splash-txt {
-  margin-top: 50%; }
+  margin-top: 50%;
+  color: white; }
 
 .jumbotron-fluid video {
   position: absolute;
@@ -58,6 +69,13 @@
 .list-group {
   border-bottom: 5px solid #f2a03d; }
 
+.stay-card {
+  z-index: 5; }
+
+@media (min-width: 375px) {
+  video {
+    min-width: 100%;
+    min-height: 100%; } }
 @media (min-width: 992px) {
   .splash-txt {
     margin-top: 25%; }
@@ -111,6 +129,14 @@ ul li {
 
 button {
   color: white !important; }
+
+.btn-primary {
+  background-color: #0477bf !important;
+  border-color: #59a0d7; }
+
+.btn-primary:hover {
+  background-color: none !important;
+  border-color: #004e8a; }
 
 .center-me {
   display: flex;
