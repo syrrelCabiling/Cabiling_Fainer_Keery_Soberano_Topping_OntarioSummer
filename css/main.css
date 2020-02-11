@@ -138,4 +138,58 @@ button {
   background-color: none !important;
   border-color: #004e8a; }
 
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.center-me-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.eat-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 10px; }
+
+.eat-card {
+  width: 50%;
+  padding-top: 25px; }
+
+.eat-img {
+  width: 50%;
+  display: flex; }
+  .eat-img img {
+    width: 100%;
+    padding: 25px 0 25px 0; }
+
+.center-me-2 {
+  margin-top: 20px; }
+  .center-me-2 h1 {
+    display: inline; }
+  .center-me-2 img {
+    width: 40%; }
+
+/* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+  transform: translateX(-33%); }
+
+.carousel-inner .item.right.active {
+  transform: translateX(33%); }
+
+.carousel-inner .item.next {
+  transform: translateX(33%); }
+
+.carousel-inner .item.prev {
+  transform: translateX(-33%); }
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+  transform: translateX(0); }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
 /*# sourceMappingURL=main.css.map */
