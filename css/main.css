@@ -2,15 +2,31 @@
 .navbar {
   background-color: transparent; }
 
-.cover-container {
-  background-color: red; }
+.navbar-toggle {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  z-index: 3; }
+
+.navbar-toggle .icon-bar {
+  background-color: #fff; }
 
 .splash-bg {
-  background: url("images/bg.jpg");
+  background-image: url("images/hackathon_ontario_video_v02.mp4");
   background-size: cover; }
 
 .splash-txt {
   margin-top: 50%; }
+
+.jumbotron-fluid video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width: 100%; }
 
 .eat-cap {
   position: absolute;
@@ -69,7 +85,8 @@ p, span {
 
 a {
   text-decoration: none;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  color: white; }
 
 a:hover {
   color: #d6370c;
@@ -77,6 +94,10 @@ a:hover {
 
 main {
   height: 100vh; }
+
+.main-logo {
+  width: 30%;
+  margin-left: 0px; }
 
 ul li {
   margin-left: 16px;
