@@ -1,5 +1,10 @@
+import HeaderSection from "./HeaderSection.js";
+import Footer from "./Footer.js";
+
 export default { //everything should go inside the section tag
     template: ` 
+
+    
         <section class="container">
             <div class="row">
             <div class="col splash-txt">
@@ -7,6 +12,12 @@ export default { //everything should go inside the section tag
                 <button class="button"><a href="#" class="btn btn-lg btn-primary">PLAN YOUR VISIT</a></button>
             </div>
             </div>
+
+
+            <HeadSection></HeadSection>
+
+
+
 
             <!-- THREE CARDS -->
             <div class="cards mb-5">
@@ -133,7 +144,11 @@ export default { //everything should go inside the section tag
 
     </div>
     
+
+    <FooterSection></FooterSection> 
         </section>
+
+         
 
 
     `,
@@ -148,5 +163,10 @@ export default { //everything should go inside the section tag
         registerUser() {
             console.log('clicked register button');
         }
+    },
+
+    components: {
+      HeadSection: HeaderSection,
+      FooterSection: Footer
     }
 }
