@@ -8,7 +8,7 @@ export default { //everything should go inside the section tag
         <section class="container">
             <div class="row">
             <div class="col splash-txt">
-                <h1 class="mb-4">FIND YOURSELF AT HOME</h1>
+                <h1 class="mb-4 ">FIND YOURSELF AT HOME</h1>
                 <button class="button"><a href="#" class="btn btn-lg btn-primary">PLAN YOUR VISIT</a></button>
             </div>
             </div>
@@ -20,9 +20,9 @@ export default { //everything should go inside the section tag
 
 
             <!-- THREE CARDS -->
-            <div class="cards">
+            <div class="cards mb-5">
                   <div class="row no-gutters my-3">
-                      <div class="col-md-4 col-sm-12 pr-2">
+                      <div class="col-md-4 col-sm-12 pr-0">
                           <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white rounded">
                               <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
                               <p class="eat-cap mx-auto">EAT</p>
@@ -40,7 +40,7 @@ export default { //everything should go inside the section tag
                               </div>
                           </div>
                       </div>
-                      <div class="col-lg-4 col-md-4 col-sm-12 pl-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 pl-0">
                           <div class="list-group text-center my-3 shadow p-3 mb-5 bg-white rounded">
                               <h4 class="dis-cap text-center">DISCOVER</h4>
                               <img src="./images/bg.jpg" alt="card bg" width="400" class="card-img-top img-fluid">
@@ -53,29 +53,13 @@ export default { //everything should go inside the section tag
                   </div>    
               </div> 
 
-
-             
-
-    <div class="eat-img-bckgrd row">
-        <img src="images/Blue-Mountain.png" alt="blue mountain" style="position:absolute; opacity: 0.6;">
-    </div>
-
-
-
-    <div class="row eat-section">
-
-        
-
+      <div class="row mt-5" id="eat">
       <div class="col-lg-4 center-me-2">
           <h1>EAT</h1>
           <img src="images/Logos/LOGO-FINAL-05.png" alt="logo">
-
       </div>
 
       <div class="col-lg-8 eat-container">
-
-
-
         <div class="eat-img  col-lg-6 center-me">
           <img src="images/360-restaurant.svg" alt="360">
         </div>
