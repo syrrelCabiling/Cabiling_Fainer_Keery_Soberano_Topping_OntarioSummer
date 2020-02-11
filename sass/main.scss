@@ -161,3 +161,24 @@ button{
   .form {
       margin: 0 auto;
   }
+
+  .back {
+      i {
+          font-size: 28px;
+          margin-right: 24px;
+      }
+  }
+
+  .form-head {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 20px;
+  }
+
+  .logo-sml {
+      max-width: 180px;
+      margin: 0 auto;
+      display: block;
+      padding-top: 20px;
+  }
