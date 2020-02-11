@@ -14,6 +14,7 @@ html {
 body {
     height: 100%;
     margin: auto;
+    background: #eeeeee;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -199,3 +200,27 @@ button{
 
 
 }
+  .form {
+      margin: 0 auto;
+  }
+
+  .back {
+      i {
+          font-size: 28px;
+          margin-right: 24px;
+      }
+  }
+
+  .form-head {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 20px;
+  }
+
+  .logo-sml {
+      max-width: 180px;
+      margin: 0 auto;
+      display: block;
+      padding-top: 20px;
+  }

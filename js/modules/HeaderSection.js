@@ -2,7 +2,7 @@ export default {
     template: `
     <div class="jumbotron-fluid" id="home">
     <video autoplay muted loop>    
-        <source src="/images/hackathon_ontario_video_v02.mp4" type="video/mp4">
+        <source src="./images/hackathon_ontario_video_v02.mp4" type="video/mp4">
     </video>
   <header class="mb-auto">
       <!-- NAVIGATION HERE -->
@@ -10,7 +10,7 @@ export default {
             <nav class="navbar navbar-expand-sm navbar-inverse navbar-toggleable-sm fixed-top navbar-fixed-top">
                 <!-- Brand/logo -->
                 <a class="navbar-brand" href="#">
-                <img src="/images/Logos/LOGO-FINAL-01.png" alt="logo" width="200" class="ml-3">
+                <img src="./images/Logos/LOGO-FINAL-01.png" alt="logo" width="200" class="ml-3">
                 </a>
                 
                 <!-- Toggler/collapsibe Button -->
