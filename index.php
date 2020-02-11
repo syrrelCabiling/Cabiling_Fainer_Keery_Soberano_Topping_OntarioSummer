@@ -19,6 +19,16 @@
 
         <main id="app">
             <router-view></router-view>
+
+
+
+
+
+
+
+
+
+        </div>
         </main>
 
         <script src="js/main.js" type="module"></script>
